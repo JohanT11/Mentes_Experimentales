@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentes Experimentales</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f7fa; /* Azul claro */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+            background-color: #0097a7; /* Azul más oscuro */
+            color: white;
+            padding: 20px;
+            margin: 0;
+            font-size: 3em; /* Tamaño de fuente aumentado */
+            box-shadow: 0 4px 2px -2px gray;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .cubiculo {
+            background-color: #ffffff;
+            border: 2px solid #b3e5fc; /* Azul claro para el borde */
+            border-radius: 10px;
+            width: 28%;
+            margin: 10px;
+            padding: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            color: #003d33; /* Texto oscuro para contraste */
+            font-weight: bold;
+            height: 300px; /* Altura ajustada para los cubículos */
+            display: flex;
+            flex-direction: column; /* Ajusta la dirección del contenido */
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .cubiculo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .cubiculo a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            display: block;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+            position: absolute;
+            bottom: 0; /* Posiciona el texto en la parte inferior */
+            width: 100%; /* Asegura que el texto cubra el ancho del cubículo */
+            box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+        }
+        footer {
+            background-color: #0097a7; /* Azul más oscuro */
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mentes Experimentales</h1>
+    <div class="container">
+        <div class="cubiculo" style="background-image: url('imagen/limon.jpg');">
+            <a href="experimento1.html">Batería Con Limón</a>
+        </div>
+        <div class="cubiculo" style="background-image: url('imagen/bombilla.jpg');">
+            <a href="experimento2.html">Bombilla Mágica</a>
+        </div>
+        <div class="cubiculo" style="background-image: url('imagen/audio.png');">
+            <a href="experimento3.html">Amplificador de Audio</a>
+        </div>
+        <div class="cubiculo" style="background-image: url('imagen/condensador.jpg');">
+            <a href="experimento4.html">Condensador</a>
+        </div>
+        <div class="cubiculo" style="background-image: url('imagen/fuente.jpg');">
+            <a href="experimento5.html">Fuente De Poder Casera</a>
+        </div>
+        <div class="cubiculo" style="background-image: url('imagen/tesla.jpg');">
+            <a href="experimento6.html">Bobina De Tesla</a>
+        </div>
+    </div>
+    <footer>
+        © 2024 Mentes Experimentales By Johan Tellez
+    </footer>
+</body>
+</html>

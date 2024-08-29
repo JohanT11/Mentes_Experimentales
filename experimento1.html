@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batería con Limón</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff9c4; /* Amarillo claro */
+            color: #f57f17; /* Amarillo oscuro para el texto */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+            background-color: #fbc02d; /* Amarillo más brillante */
+            color: #ffffff;
+            padding: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            box-shadow: 0 4px 2px -2px gray;
+            width: 100%;
+            text-align: center;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .side-box {
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 2px solid #fbc02d; /* Amarillo brillante para bordes */
+            border-radius: 10px;
+            background-color: #fffde7; /* Amarillo muy claro */
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-content {
+            width: 60%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .description, .materials, .steps {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 2px solid #fbc02d; /* Amarillo brillante para bordes */
+            border-radius: 10px;
+            background-color: #fffde7; /* Amarillo muy claro */
+            text-align: left;
+        }
+        footer {
+            background-color: #fbc02d; /* Amarillo brillante */
+            color: #ffffff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .back-button {
+            background-color: #fbc02d; /* Amarillo brillante */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background-color: #f57f17; /* Amarillo oscuro para hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Batería con Limón</h1>
+    <div class="wrapper">
+        <div class="side-box">
+            <img src="imagen/ex1_1.jpg" alt="Imagen Lateral 1">
+        </div>
+        <div class="main-content">
+            <div class="description">
+                <p>La batería con limón es un experimento simple y educativo que utiliza la acidez del limón para generar electricidad. Es una excelente manera de aprender sobre la electroquímica y cómo se pueden utilizar reacciones químicas para producir energía eléctrica.</p>
+            </div>
+            <div class="materials">
+                <h2>Materiales</h2>
+                <ul>
+                    <li>Limones (2-3)</li>
+                    <li>Clavos de cobre (2-3)</li>
+                    <li>Clavos de zinc (2-3)</li>
+                    <li>Cables con pinzas cocodrilo</li>
+                    <li>Multímetro (opcional, para medir el voltaje)</li>
+                    <li>Cinta adhesiva (opcional, para asegurar los clavos)</li>
+                </ul>
+            </div>
+            <div class="steps">
+                <h2>Paso a Paso</h2>
+                <ol>
+                    <li><strong>Preparar los Limones:</strong> Exprime ligeramente los limones para liberar el jugo, sin romper la cáscara.</li>
+                    <li><strong>Insertar los Clavos:</strong> Inserta un clavo de cobre y un clavo de zinc en cada limón, asegurándote de que no se toquen entre sí.</li>
+                    <li><strong>Conectar los Limones:</strong> Usa los cables con pinzas cocodrilo para conectar el clavo de cobre de un limón al clavo de zinc del siguiente limón. Repite el proceso para conectar todos los limones en serie.</li>
+                    <li><strong>Medir el Voltaje (opcional):</strong> Conecta un multímetro a los extremos de los clavos de cobre y zinc para medir el voltaje generado.</li>
+                    <li><strong>Utilizar la Batería:</strong> Puedes usar la batería para alimentar un pequeño dispositivo LED o para experimentar con diferentes componentes electrónicos.</li>
+                </ol>
+            </div>
+            <a href="index.html" class="back-button">Regresar al Index</a>
+        </div>
+        <div class="side-box">
+            <img src="imagen/ex1_2.jpg" alt="Imagen Lateral 2">
+        </div>
+    </div>
+    <footer>
+        © 2024 Mentes Experimentales By Johan Tellez
+    </footer>
+</body>
+</html>

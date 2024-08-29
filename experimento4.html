@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condensador Casero</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e8f5e9; /* Verde muy claro */
+            color: #1b5e20; /* Verde oscuro para el texto */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+            background-color: #388e3c; /* Verde brillante */
+            color: #ffffff;
+            padding: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            box-shadow: 0 4px 2px -2px gray;
+            width: 100%;
+            text-align: center;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .side-box {
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 2px solid #388e3c; /* Verde brillante para bordes */
+            border-radius: 10px;
+            background-color: #dcedc8; /* Verde claro */
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-content {
+            width: 60%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .description, .materials, .steps {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 2px solid #388e3c; /* Verde brillante para bordes */
+            border-radius: 10px;
+            background-color: #dcedc8; /* Verde claro */
+            text-align: left;
+        }
+        footer {
+            background-color: #388e3c; /* Verde brillante */
+            color: #ffffff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .back-button {
+            background-color: #388e3c; /* Verde brillante */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background-color: #2c6b2f; /* Verde oscuro para hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Condensador Casero</h1>
+    <div class="wrapper">
+        <div class="side-box">
+            <img src="imagen/ex4_1.jpg" alt="Imagen Lateral 1">
+        </div>
+        <div class="main-content">
+            <div class="description">
+                <p>Construir un condensador casero es un proyecto educativo que te permite aprender sobre el almacenamiento y la liberación de carga eléctrica. Este experimento utiliza materiales comunes para crear un condensador funcional y es ideal para entender los conceptos básicos de la capacitancia.</p>
+            </div>
+            <div class="materials">
+                <h2>Materiales</h2>
+                <ul>
+                    <li>Placas de aluminio o papel de aluminio</li>
+                    <li>Cartón o plástico (para las capas separadoras)</li>
+                    <li>Cinta adhesiva</li>
+                    <li>Conductores eléctricos</li>
+                    <li>Fuente de alimentación</li>
+                </ul>
+            </div>
+            <div class="steps">
+                <h2>Paso a Paso</h2>
+                <ol>
+                    <li><strong>Cortar las Placas:</strong> Corta las placas de aluminio en forma de rectángulos del mismo tamaño.</li>
+                    <li><strong>Preparar las Capas:</strong> Corta el cartón o plástico en el mismo tamaño que las placas de aluminio para usarlas como separadores.</li>
+                    <li><strong>Montar el Condensador:</strong> Alterna las placas de aluminio y los separadores, y usa cinta adhesiva para mantener todo en su lugar.</li>
+                    <li><strong>Conectar los Conductores:</strong> Conecta los conductores a las placas de aluminio para que puedas medir la capacitancia.</li>
+                    <li><strong>Probar el Condensador:</strong> Usa una fuente de alimentación para cargar el condensador y verifica su funcionamiento.</li>
+                </ol>
+            </div>
+            <a href="index.html" class="back-button">Regresar al Index</a>
+        </div>
+        <div class="side-box">
+            <img src="imagen/ex4_2.jpg" alt="Imagen Lateral 2">
+        </div>
+    </div>
+    <footer>
+        © 2024 Mentes Experimentales By Johan Tellez
+    </footer>
+</body>
+</html>

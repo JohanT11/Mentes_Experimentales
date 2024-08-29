@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuente de Poder Casera</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5; /* Gris claro */
+            color: #3e2723; /* Café oscuro para el texto */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+            background-color: #6d4c41; /* Café más oscuro */
+            color: #ffffff;
+            padding: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            box-shadow: 0 4px 2px -2px gray;
+            width: 100%;
+            text-align: center;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .side-box {
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 2px solid #6d4c41; /* Café oscuro para bordes */
+            border-radius: 10px;
+            background-color: #d7ccc8; /* Café claro */
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-content {
+            width: 60%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .description, .materials, .steps {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 2px solid #6d4c41; /* Café oscuro para bordes */
+            border-radius: 10px;
+            background-color: #d7ccc8; /* Café claro */
+            text-align: left;
+        }
+        footer {
+            background-color: #6d4c41; /* Café oscuro */
+            color: #ffffff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .back-button {
+            background-color: #6d4c41; /* Café oscuro */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background-color: #4e342e; /* Café más oscuro para hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Fuente de Poder Casera</h1>
+    <div class="wrapper">
+        <div class="side-box">
+            <img src="imagen/ex5_1.jpg" alt="Imagen Lateral 1">
+        </div>
+        <div class="main-content">
+            <div class="description">
+                <p>Una fuente de poder casera es un proyecto útil para aprender sobre circuitos eléctricos y la regulación de voltaje. Este experimento te enseñará a construir una fuente de alimentación básica que puede proporcionar diferentes voltajes para tus proyectos electrónicos.</p>
+            </div>
+            <div class="materials">
+                <h2>Materiales</h2>
+                <ul>
+                    <li>Transformador de 12V</li>
+                    <li>Puente rectificador</li>
+                    <li>Capacitores (1000µF y 220µF)</li>
+                    <li>Regulador de voltaje (LM317 o similar)</li>
+                    <li>Resistencias</li>
+                    <li>Potenciómetro</li>
+                    <li>Placa de circuito impreso</li>
+                    <li>Cables de conexión</li>
+                    <li>Soldador y estaño</li>
+                </ul>
+            </div>
+            <div class="steps">
+                <h2>Paso a Paso</h2>
+                <ol>
+                    <li><strong>Preparar el Transformador:</strong> Conecta el transformador de 12V al puente rectificador para convertir la corriente alterna (AC) a corriente continua (DC).</li>
+                    <li><strong>Conectar los Capacitores:</strong> Usa los capacitores para suavizar la salida del puente rectificador y reducir el rizado en la corriente.</li>
+                    <li><strong>Instalar el Regulador de Voltaje:</strong> Conecta el regulador de voltaje a los capacitores para ajustar la salida a un voltaje deseado.</li>
+                    <li><strong>Ajustar el Potenciómetro:</strong> Usa el potenciómetro para ajustar el voltaje de salida a tu necesidad.</li>
+                    <li><strong>Verificar el Funcionamiento:</strong> Usa un multímetro para medir la salida y asegurarte de que la fuente de poder esté funcionando correctamente.</li>
+                </ol>
+            </div>
+            <a href="index.html" class="back-button">Regresar al Index</a>
+        </div>
+        <div class="side-box">
+            <img src="imagen/ex5_2.jpg" alt="Imagen Lateral 2">
+        </div>
+    </div>
+    <footer>
+        © 2024 Mentes Experimentales By Johan Tellez
+    </footer>
+</body>
+</html>

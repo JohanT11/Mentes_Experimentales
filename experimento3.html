@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amplificador de Audio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffebee; /* Rojo muy claro */
+            color: #b71c1c; /* Rojo oscuro para el texto */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+            background-color: #c62828; /* Rojo brillante */
+            color: #ffffff;
+            padding: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            box-shadow: 0 4px 2px -2px gray;
+            width: 100%;
+            text-align: center;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .side-box {
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 2px solid #c62828; /* Rojo brillante para bordes */
+            border-radius: 10px;
+            background-color: #ffcdd2; /* Rojo claro */
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-content {
+            width: 60%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .description, .materials, .steps {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 2px solid #c62828; /* Rojo brillante para bordes */
+            border-radius: 10px;
+            background-color: #ffcdd2; /* Rojo claro */
+            text-align: left;
+        }
+        footer {
+            background-color: #c62828; /* Rojo brillante */
+            color: #ffffff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .back-button {
+            background-color: #c62828; /* Rojo brillante */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background-color: #b71c1c; /* Rojo oscuro para hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Amplificador de Audio</h1>
+    <div class="wrapper">
+        <div class="side-box">
+            <img src="imagen/ex3_1.png" alt="Imagen Lateral 1">
+        </div>
+        <div class="main-content">
+            <div class="description">
+                <p>El amplificador de audio casero es un proyecto interesante que te permite amplificar el sonido de dispositivos de audio simples utilizando componentes electrónicos básicos. Es una excelente manera de aprender sobre amplificación de señales y circuitos electrónicos.</p>
+            </div>
+            <div class="materials">
+                <h2>Materiales</h2>
+                <ul>
+                    <li>Transistor (por ejemplo, 2N2222)</li>
+                    <li>Resistencias</li>
+                    <li>Condensadores</li>
+                    <li>Potenciómetro</li>
+                    <li>Altavoz</li>
+                    <li>Fuente de alimentación</li>
+            </ul>
+            </div>
+            <div class="steps">
+                <h2>Paso a Paso</h2>
+                <ol>
+                    <li><strong>Preparar el Circuito:</strong> Conecta el transistor, resistencias y condensadores según el esquema del amplificador.</li>
+                    <li><strong>Ajustar el Potenciómetro:</strong> Ajusta el potenciómetro para obtener el nivel adecuado de amplificación.</li>
+                    <li><strong>Conectar el Altavoz:</strong> Conecta el altavoz a la salida del amplificador.</li>
+                    <li><strong>Probar el Amplificador:</strong> Conecta una fuente de audio y prueba el amplificador para asegurarte de que el sonido se amplifique correctamente.</li>
+                </ol>
+            </div>
+            <a href="index.html" class="back-button">Regresar al Index</a>
+        </div>
+        <div class="side-box">
+            <img src="imagen/ex3_2.jpg" alt="Imagen Lateral 2">
+        </div>
+    </div>
+    <footer>
+        © 2024 Mentes Experimentales By Johan Tellez
+    </footer>
+</body>
+</html>

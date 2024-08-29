@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobina de Tesla</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e3f2fd; /* Azul claro */
+            color: #0277bd; /* Azul oscuro para el texto */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+            background-color: #0288d1; /* Azul más brillante */
+            color: #ffffff;
+            padding: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            box-shadow: 0 4px 2px -2px gray;
+            width: 100%;
+            text-align: center;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .side-box {
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 2px solid #0288d1; /* Azul brillante para bordes */
+            border-radius: 10px;
+            background-color: #e1f5fe; /* Azul muy claro */
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-content {
+            width: 60%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .description, .materials, .steps {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 2px solid #0288d1; /* Azul brillante para bordes */
+            border-radius: 10px;
+            background-color: #e1f5fe; /* Azul muy claro */
+            text-align: left;
+        }
+        footer {
+            background-color: #0288d1; /* Azul brillante */
+            color: #ffffff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .back-button {
+            background-color: #0288d1; /* Azul brillante */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background-color: #01579b; /* Azul más oscuro para hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Bobina de Tesla</h1>
+    <div class="wrapper">
+        <div class="side-box">
+            <img src="imagen/ex6_1.jpg" alt="Imagen Lateral 1">
+        </div>
+        <div class="main-content">
+            <div class="description">
+                <p>La bobina de Tesla es un tipo de transformador resonante que se utiliza para generar altos voltajes a frecuencias muy altas. Este experimento es fascinante para estudiar la transferencia de energía inalámbrica y los efectos de las descargas eléctricas de alta frecuencia.</p>
+            </div>
+            <div class="materials">
+                <h2>Materiales</h2>
+                <ul>
+                    <li>Bobina primaria (alambre de cobre grueso)</li>
+                    <li>Bobina secundaria (alambre de cobre fino)</li>
+                    <li>Capacitor de alta tensión</li>
+                    <li>Fuente de alimentación</li>
+                    <li>Transformador de encendido (Spark Gap)</li>
+                    <li>Base de soporte</li>
+                    <li>Cables y conectores</li>
+                    <li>Herramientas de soldadura</li>
+                </ul>
+            </div>
+            <div class="steps">
+                <h2>Paso a Paso</h2>
+                <ol>
+                    <li><strong>Construir la Bobina Secundaria:</strong> Enrolla el alambre de cobre fino alrededor de un tubo cilíndrico para formar la bobina secundaria.</li>
+                    <li><strong>Construir la Bobina Primaria:</strong> Enrolla el alambre de cobre grueso en forma de espiral para formar la bobina primaria.</li>
+                    <li><strong>Montar el Capacitor:</strong> Conecta el capacitor de alta tensión al sistema para almacenar energía.</li>
+                    <li><strong>Instalar el Transformador:</strong> Coloca el transformador de encendido (spark gap) para generar descargas eléctricas.</li>
+                    <li><strong>Conectar el Sistema:</strong> Conecta todos los componentes según el esquema de conexión para que la bobina de Tesla funcione correctamente.</li>
+                </ol>
+            </div>
+            <a href="index.html" class="back-button">Regresar al Index</a>
+        </div>
+        <div class="side-box">
+            <img src="imagen/ex6_2.jpg" alt="Imagen Lateral 2">
+        </div>
+    </div>
+    <footer>
+        © 2024 Mentes Experimentales By Johan Tellez
+    </footer>
+</body>
+</html>
